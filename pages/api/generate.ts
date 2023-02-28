@@ -80,5 +80,5 @@ export default async function handler(
   }
   res
     .status(200)
-    .json(restoredImage ? restoredImage : "Failed to restore image");
+    .json(restoredImage ? restoredImage : "Косячоок :(");
 }
